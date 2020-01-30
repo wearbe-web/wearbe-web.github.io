@@ -22,13 +22,13 @@ color: #fff;
 
 /* Fonts */
 .font-eng{font-family: 'Muli', sans-serif;}
-.font-kor{font-family: 'Nanum Gothic', sans-serif; letter-spacing: 0.08rem;}
+.font-kor{font-family: 'Nanum Gothic', sans-serif; letter-spacing: 0.01rem;}
 
 @media screen and (min-width: 601px) {
 h1 {font-size:80px; font-weight:bold; color:#353b3e;}
 h2 {font-size:40px; font-weight:bold; color:#353b3e;}
-h3 {font-size:30px; font-weight:700; color:#353b3e;}
-p {font-size: 20px; font-weight:normal; line-height:40px; color:#353b3e;}
+h3 {font-size:30px; font-weight:700; color:#353b3e; line-height:40px;}
+p {font-size: 15px; font-weight:normal; color:#353b3e; line-height:30px;}
 li a {font-size:20px;}
 .nav-li-a-logo img{height:35px;}
 }
@@ -40,8 +40,8 @@ background-size:cover;
 background-position:center left;}
 h1 {font-size:35px; font-weight:bold; color:#353b3e;}
 h2 {font-size:25px; font-weight:bold; color:#353b3e;}
-h3 {font-size:25px; font-weight:700; color:#353b3e;}
-p {font-size: 15px; line-height:30px; color:#353b3e;}
+h3 {font-size:25px; font-weight:700; color:#353b3e; line-height:40px;}
+p {font-size: 15px; line-height:30px; color:#353b3e; line-height:30px;} 
 li a {font-size:18px;}
 .nav-li-a-logo img{height:30px;}
 .main{width:100%;}
@@ -84,13 +84,15 @@ li a:hover,li a:visited {color:#596469;text-decoration:none;}
 
 .main{
 margin:88px 0;
-width:88%;
+width:100%;
 float:left;
 word-break: keep-all!important;
 overflow-wrap: keep-all!important;
 }
 .main img{width:100%;}
-.sub-title{margin-bottom:30px;}
+.sub-title{margin-bottom:20px;}
+.text-button{padding:20px 30px;background:#6a82fb;color:#fff;border-radius:8px;font-size:18px;font-weight:600;}
+.text-button:hover, .text-button:visited{color:#fff;}
 
 
 footer {display:block;padding-top:20px;padding-bottom:20px;line-height:20px;position:fixed;bottom:0;}
