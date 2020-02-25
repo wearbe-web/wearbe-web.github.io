@@ -87,7 +87,7 @@
 
   ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #000000;
+    background: #fefefe;
   }
 
   .section-title {
@@ -304,7 +304,7 @@
     margin-bottom: 0;
     padding: 10px;
   }
-
+  .navbar-brand img{height:30px;}
   .navbar-default .navbar-brand {
     color: #393939;
     font-weight: 500;
