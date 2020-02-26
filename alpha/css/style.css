@@ -69,14 +69,14 @@
   }
 
   a {
-    color: #252525;
+    color: #3e4549;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none !important;
   }
 
   a:hover, a:active, a:focus {
-    color: #a5c422;
+    color: #111314;
     outline: none;
   }
 
@@ -276,7 +276,7 @@
   header span {
     font-weight: 500;
     display: inline-block;
-    padding: 11px 15px;
+    padding: 11px 0px;
   }
 
   header span.date-icon {
@@ -432,7 +432,6 @@
     background-color: rgba(20,20,20,0.2);
     height: 100%;
     color: #fff;
-    cursor: e-resize;
   }
 
   .slider .item {
@@ -973,10 +972,12 @@
     }
 
     header {
+      padding-left: 10px;
       padding-bottom: 10px;
+      display:block;
     }
     header .text-align-right {
-      text-align: left;
+    display:none;
     }
     header span {
       padding-top: 0;
